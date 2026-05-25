@@ -4,10 +4,10 @@ on:
   push:
     branches: [main]
     paths:
-      - 'src/content/posts/**'  # 只有文章变更时才触发
+      - 'src/content/posts/**'
 
 jobs:
-  trigger:
+  sync-posts:          # ✅ 改成纯英文 ID
     runs-on: ubuntu-latest
     steps:
       - name: Trigger Sigrika-Blog Deploy
