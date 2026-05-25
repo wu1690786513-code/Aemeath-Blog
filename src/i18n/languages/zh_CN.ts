@@ -262,6 +262,10 @@ export const zh_CN: Translation = {
 	[Key.siteStatsDaysAgo]: "{days} 天前",
 	[Key.siteStatsDays]: "{days} 天",
 	[Key.today]: "今天",
+		// 自定义
+	[Key.siteStatsVisitCount]: "全站浏览",
+	[Key.pageStatsVisitCount]: "本页浏览",
+
 
 	// 日历组件
 	[Key.calendarSunday]: "日",

@@ -91,6 +91,24 @@ const stats = [
 		dynamic: true,
 		id: "running-days",
 	},
+  // 自定义站点访问次数-本页面浏览-标记
+  {
+    icon: "mdi:account-details-outline",
+    label: i18n(I18nKey.pageStatsVisitCount),
+    value: 114514, // 占位
+    suffix: " 次",
+    dynamic: true,
+    id: "vercount_value_page_pv",
+  },
+  // 自定义站点访问次数-全站访问-标记
+  {
+    icon: "material-symbols:admin-panel-settings-outline",
+    label: i18n(I18nKey.siteStatsVisitCount),
+    value: 1919810, // 占位
+    suffix: " 次",
+    dynamic: true,
+    id: "vercount_value_site_pv",
+},
 	{
 		icon: "mingcute:heartbeat-line",
 		label: i18n(I18nKey.siteStatsLastUpdate),
