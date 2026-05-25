@@ -1,0 +1,3 @@
+[submodule "src/content/posts/同步文章"]
+	path = src/content/posts/同步文章
+	url = https://github.com/wu1690786513-code/Blog-Posts-Sync.git
