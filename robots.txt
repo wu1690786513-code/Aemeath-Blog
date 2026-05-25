@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /_astro/
+
+Sitemap: https://aemeath.sigrika.cc/sitemap-index.xml
